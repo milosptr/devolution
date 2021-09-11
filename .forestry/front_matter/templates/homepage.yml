@@ -131,5 +131,12 @@ fields:
   type: boolean
   label: Show recent blogs
   default: true
+- name: permalink
+  type: text
+  config:
+    required: false
+  label: permalink
+  default: "/"
+  hidden: true
 pages:
 - _pages/Homepage.md
