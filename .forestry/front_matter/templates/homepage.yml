@@ -1,4 +1,133 @@
 ---
 label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  default: homepage
+  hidden: true
+- name: hero_title
+  type: text
+  config:
+    required: false
+  label: Hero title
+  default: Lorem ipsum dolor sit amet
+- name: hero_subtitle
+  type: textarea
+  default: |-
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+
+    Ut enim ad minim veniam
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Hero subtitle
+- name: contact_us_btn
+  type: boolean
+  label: Contact us btn
+  default: true
+- name: services_title
+  type: text
+  config:
+    required: false
+  label: Services title
+  default: What can we do for you?
+- name: services
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: image
+    default: "/images/placeholder-635x635.jpg"
+  - name: title
+    type: text
+    config:
+      required: false
+    label: title
+    default: Lorem ipsum dolor sit amet
+  - name: description
+    type: textarea
+    default: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua
+    config:
+      required: false
+      wysiwyg: false
+      schema:
+        format: markdown
+    label: Description
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: services
+- name: about_us_title
+  type: text
+  config:
+    required: false
+  label: About us title
+  default: We lead and support our customer’s cloud
+- name: about_us_description
+  type: textarea
+  default: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: About us description
+- name: about_us_services
+  type: field_group_list
+  fields:
+  - name: service
+    type: text
+    config:
+      required: false
+    label: Service
+    default: Lorem ipsum
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: About us services
+- name: about_us_images
+  type: field_group_list
+  fields:
+  - name: image
+    type: file
+    config:
+      maxSize: 64
+    label: Image
+    default: "/images/placeholder-635x635.jpg"
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: About us images
+- name: read_more_btn
+  type: boolean
+  label: Read more btn
+  default: true
+- name: worldwide_title
+  type: text
+  config:
+    required: false
+  label: Worldwide title
+  default: Develop locally, Deploy globally
+- name: worldwide_image
+  type: file
+  config:
+    maxSize: 64
+  label: Worldwide image
+  default: "/images/worldwide.png"
+- name: show_recent_blogs
+  type: boolean
+  label: Show recent blogs
+  default: true
