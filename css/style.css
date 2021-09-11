@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaDemo-Light.eot');
+  src: url('../fonts/NexaDemo-Light.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NexaDemo-Light.woff2') format('woff2'),
+      url('../fonts/NexaDemo-Light.woff') format('woff'),
+      url('../fonts/NexaDemo-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Nexa';
+  src: url('../fonts/NexaDemo-Bold.eot');
+  src: url('../fonts/NexaDemo-Bold.eot?#iefix') format('embedded-opentype'),
+      url('../fonts/NexaDemo-Bold.woff2') format('woff2'),
+      url('../fonts/NexaDemo-Bold.woff') format('woff'),c
+      url('../fonts/NexaDemo-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+* {
+  font-family: 'Nexa', sans-serif;
+  font-size: 16px;
+}
+
+.nav-link {
+  padding: 0 5%;
+  color: #444;
+}
+
+.nav-link.active {
+  color: #3955a8;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}

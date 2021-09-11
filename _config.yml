@@ -4,24 +4,15 @@ description: Lorem ipsum dolor simet amet
 baseurl:
 permalink: "/:path/"
 defaults:
-  - scope:
-      path: ""
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
     values:
-      layout: page
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
+      layout: "default"
 collections:
-  people:
-    output: true
-    permalink: "/about/:path/"
   posts:
     output: true
-  projects:
-    output: true
-    permalink: "/projects/:path/"
 # tag_page_layout: tag_page
 # tag_page_dir: tag
 jekyll-archives:
