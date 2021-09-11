@@ -131,3 +131,5 @@ fields:
   type: boolean
   label: Show recent blogs
   default: true
+pages:
+- _pages/Homepage.md
