@@ -15,10 +15,12 @@ sections:
   - post-standard
   - post-header
 - type: directory
-  path: _pages
+  path: ''
   label: Pages
   create: documents
   match: "*.md"
+  templates:
+  - homepage
 - type: heading
   label: Jekyll
 - type: document
