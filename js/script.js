@@ -10,11 +10,9 @@ jQuery(function ($) {
     // Sticky navbar
     $(window).on('scroll', function() {
         if ($(this).scrollTop() > 50) {
-            $('.navbar-area').addClass('is-sticky');
-            $(".fixed-top").addClass("non-fixed");
+            $('.navigation-header').addClass('is-sticky');
         } else {
-            $('.navbar-area').removeClass('is-sticky');
-            $(".fixed-top").removeClass("non-fixed");
+            $('.navigation-header').removeClass('is-sticky');
         }
     });
 
@@ -173,7 +171,7 @@ jQuery(function ($) {
         nav: false,
         dots: false,
         responsiveRefreshRate : 200,
-    }).on("changed.owl.carousel", function(e) 
+    }).on("changed.owl.carousel", function(e)
     {
         if (!flag) {
             flag = true;

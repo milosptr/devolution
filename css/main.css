@@ -27,6 +27,25 @@
   font-size: 16px;
 }
 
+.navigation-header {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.navigation-header.is-sticky {
+  background: #fff;
+}
+
+.navigation-header img {
+  transition: all .3s ease-in-out;
+}
+
+.navigation-header.is-sticky img {
+  width: 200px!important;
+}
+
 .nav-link {
   padding: 0 5%;
   color: #444;
