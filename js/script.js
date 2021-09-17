@@ -7,6 +7,14 @@ jQuery(function ($) {
         meanScreenWidth: "1199"
     });
 
+    jQuery('.responsive-btn').on('click', () => {
+      jQuery('.desktop-nav').addClass('open')
+    })
+    jQuery('.close-nav-btn').on('click', () => {
+      jQuery('.desktop-nav').removeClass('open')
+    })
+
+
     // Sticky navbar
     $(window).on('scroll', function() {
         if ($(this).scrollTop() > 50) {

@@ -55,3 +55,105 @@
   color: #3955a8;
   font-weight: bold;
 }
+.close-nav-btn,
+.responisve-nav {
+  display: none;
+}
+
+
+
+@media (max-width: 460px) {
+  body .navigation-header .col-md-4 {
+    width: 60%;
+  }
+
+  body .desktop-nav {
+    display: none;
+  }
+
+  body .responsive-btn {
+    padding-right: 16px;
+  }
+
+  body .responsive-btn span {
+    display: block;
+    width: 25px;
+    height: 8px;
+    border-top: 2px solid #444;
+  }
+
+  body .navigation-header {
+    height: 70px;
+  }
+
+  body .navigation-header .col-md-5 {
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    overflow: hidden;
+  }
+
+  body .desktop-nav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    left: 0; top: 0;
+    width: 102%;
+    height: 100vh;
+    background: #444;
+    transform: translateX(800px);
+    transition: all .4s ease-in-out;
+    z-index: 100;
+    padding-top: 30px;
+  }
+
+  body .desktop-nav a {
+    color: #fff;
+    flex: none;
+    height: 50px;
+    line-height: 50px;
+    width: 101%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  body .close-nav-btn {
+    position: fixed;
+    right: 27px;
+    top: -1px;
+    width: 40px;
+    display: block;
+    color: #fff;
+    font-size: 40px;
+    z-index: 101;
+  }
+
+  body .desktop-nav.open {
+    transform: translate(11px);
+  }
+
+  body .header-bg-lg {
+    padding-top: 120px;
+    overflow: hidden;
+  }
+
+  body .header-content {
+    padding-left: 0;
+  }
+
+  body .header-image-shape {
+    display: none;
+  }
+
+  body .container {
+    padding: 0 16px;
+  }
+
+  #contactForm .form-group,
+  #contactForm .input-checkbox,
+  #contactForm .form-button {
+    width: 100%;
+    padding: 0 16px!important;
+  }
+}
