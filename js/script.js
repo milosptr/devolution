@@ -14,6 +14,13 @@ jQuery(function ($) {
       jQuery('.desktop-nav').removeClass('open')
     })
 
+    jQuery('a[href^="#"]').click(function () {
+      jQuery('html, body').animate({
+          scrollTop: $('[id="' + $.attr(this, 'href').substr(1) + '"]').offset().top
+      }, 500);
+
+      return false;
+  });
 
     // Sticky navbar
     $(window).on('scroll', function() {
