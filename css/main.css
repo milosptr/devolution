@@ -60,7 +60,9 @@
   display: none;
 }
 
-
+.equal-height .col-sm-6 .process-item{
+    min-height: 333px;
+}
 
 @media (max-width: 460px) {
   body .navigation-header .col-md-4 {
