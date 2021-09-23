@@ -1014,10 +1014,6 @@ select.form-control {
   background-color: rgba(31, 18, 253, 0.58);
 }
 
-.page-bg-ultra {
-  background-image: url(../images/page-bg/bg-ultrawide.jpg);
-}
-
 .page-bg-1 {
   background-image: url(../images/page-bg/page-bg-1.jpg);
 }

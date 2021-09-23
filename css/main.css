@@ -72,6 +72,10 @@
   margin-left: auto;
 }
 
+.feature-card {
+  min-height: 340px;
+}
+
 .our-process-number {
   font-size: 300px;
   font-weight: bold;
@@ -86,6 +90,34 @@
 #process .process-thumb img {
   max-width: 80px;
 }
+
+#about .about-item-image {
+  position: sticky;
+  top: 100px;
+}
+
+body .page-bg-ultra {
+  position: relative;
+}
+
+body .page-bg-ultra::before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url(../images/page-bg/bg-ultrawide.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+body .section-title.section-title-lg {
+  max-width: 855px;
+  }
 
 @media (max-width: 460px) {
   body .navigation-header .col-md-4 {
