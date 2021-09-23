@@ -68,6 +68,10 @@
   position: relative;
 }
 
+.ml-auto {
+  margin-left: auto;
+}
+
 .our-process-number {
   font-size: 300px;
   font-weight: bold;
