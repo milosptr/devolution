@@ -64,6 +64,25 @@
     min-height: 333px;
 }
 
+.relative {
+  position: relative;
+}
+
+.our-process-number {
+  font-size: 300px;
+  font-weight: bold;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  line-height: 1em;
+  color: #666;
+  opacity: .05;
+}
+
+#process .process-thumb img {
+  max-width: 80px;
+}
+
 @media (max-width: 460px) {
   body .navigation-header .col-md-4 {
     width: 60%;
