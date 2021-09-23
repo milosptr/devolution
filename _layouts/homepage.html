@@ -10,9 +10,9 @@
               <div class="ms-auto">
                   <div class="header-content">
                       <h1>DevOps as a Service</h1>
-                      <p class="col-6">We help development teams to build, deploy and optimize Cloud-native and on-prem applications according to the latest standards and technologies.</p>
+                      <p class=" col-sm-6 mx-3">We help development teams to build, deploy and optimize Cloud-native and on-prem applications according to the latest standards and technologies.</p>
                       <div class="button-group button-group-animated">
-                          <a href="#contactForm" class="btn main-btn">Get Started</a>
+                          <a href="#contactFormSection" class="btn main-btn">Get Started</a>
                       </div>
                   </div>
               </div>
@@ -247,39 +247,42 @@
   </div>
 </section> -->
 <!-- Project-section -->
-<section class="project-section pt-min-100 pb-100">
-  <div class="container">
-      <div class="section-title section-title-lg">
-          <h2>Let's Get In Touch!</h2>
+<div id="contactFormSection" style="transform: translateY(-70px);"></div>
+<section class="project-section pt-min-70 pb-100">
+    <div>
+      <div class="container">
+        <div class="section-title section-title-lg">
+            <h2>Let's Get In Touch!</h2>
+        </div>
       </div>
-  </div>
-  <div class="container p-md-0">
-    <div class="row">
-      <div class="col-xs-12 col-md-6 mx-auto">
-        <form class="contact-form" id="contactForm">
-          <div class="col-xs-12 col-md-6 pe-4 form-group mb-20">
-              <input type="text" name="name" id="name" class="form-control" placeholder="Your Name*" required data-error="Please enter your name" />
-              <div class="help-block with-errors"></div>
+      <div class="container p-md-0">
+        <div class="row">
+          <div class="col-xs-12 col-md-6 mx-auto">
+            <form class="contact-form" id="contactForm">
+              <div class="col-xs-12 col-md-6 pe-4 form-group mb-20">
+                  <input type="text" name="name" id="name" class="form-control" placeholder="Your Name*" required data-error="Please enter your name" />
+                  <div class="help-block with-errors"></div>
+              </div>
+              <div class="col-xs-12 col-md-6 ps-4 form-group mb-20">
+                  <input type="text" name="email" id="email" class="form-control" placeholder="Your Email*" required data-error="Please enter your email" />
+                  <div class="help-block with-errors"></div>
+              </div>
+              <div class="col-xs-12 col-md-12 form-group mb-20">
+                  <textarea name="message" class="form-control" id="message" rows="3" placeholder="Your Question*"></textarea>
+              </div>
+              <div class="col-xs-12 col-md-12 input-checkbox mb-20">
+                  <input type="checkbox" id="contact1">
+                  <label for="contact1">Accept <a href="terms-of-service.html">Terms of Service</a> and <a href="privacy-policy">Privacy Policy</a></label>
+              </div>
+              <div class="col-xs-12 form-button">
+                  <button class="btn main-btn full-width" type="submit">Send Message</button>
+                  <div id="msgSubmit"></div>
+                  <div class="clearfix"></div>
+              </div>
+            </form>
           </div>
-          <div class="col-xs-12 col-md-6 ps-4 form-group mb-20">
-              <input type="text" name="email" id="email" class="form-control" placeholder="Your Email*" required data-error="Please enter your email" />
-              <div class="help-block with-errors"></div>
-          </div>
-          <div class="col-xs-12 col-md-12 form-group mb-20">
-              <textarea name="message" class="form-control" id="message" rows="3" placeholder="Your Question*"></textarea>
-          </div>
-          <div class="col-xs-12 col-md-12 input-checkbox mb-20">
-              <input type="checkbox" id="contact1">
-              <label for="contact1">Accept <a href="terms-of-service.html">Terms of Service</a> and <a href="privacy-policy">Privacy Policy</a></label>
-          </div>
-          <div class="col-xs-12 form-button">
-              <button class="btn main-btn full-width" type="submit">Send Message</button>
-              <div id="msgSubmit"></div>
-              <div class="clearfix"></div>
-          </div>
-        </form>
+        </div>
       </div>
     </div>
-  </div>
 </section>
 {% include footer.html %}
