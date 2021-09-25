@@ -186,3 +186,5 @@ fields:
       labelField: 
     label: Items
   label: Process
+pages:
+- Homepage.md
