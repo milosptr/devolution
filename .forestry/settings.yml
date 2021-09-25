@@ -20,7 +20,7 @@ sections:
   create: documents
   match: "*.md"
   templates:
-  - homepage
+  - index
 - type: heading
   label: Jekyll
 - type: document
