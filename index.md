@@ -1,5 +1,5 @@
 ---
-layout: index
+layout: homepage
 hero:
   title: DevOps as a Service
   description: We help development teams to build, deploy and optimize Cloud-native

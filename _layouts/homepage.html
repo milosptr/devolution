@@ -9,11 +9,13 @@
           <div class="lg:w-2/3 lg:p-0">
               <div class="ml-auto">
                   <div class="header-content">
-                      <h1 class="font-semibold">DevOps as a Service</h1>
-                      <p class="w-full sm:w-1/2 px-3">We help development teams to build, deploy and optimize Cloud-native and on-prem applications according to the latest standards and technologies.</p>
-                      <div class="button-group button-group-animated">
-                          <a href="#contactFormSection" class="btn main-btn">Get Started</a>
-                      </div>
+                      <h1 class="font-semibold">{{ page.hero.title }}</h1>
+                      <p class="w-full sm:w-1/2 px-3">{{ page.hero.description }}</p>
+                      {% if page.hero.display_get_started_button %}
+                        <div class="button-group button-group-animated">
+                            <a href="#contactFormSection" class="btn main-btn">Get Started</a>
+                        </div>
+                      {% endif %}
                   </div>
               </div>
           </div>
@@ -28,49 +30,25 @@
 <section id="services" class="feature-section pt-min-100 pb-70">
   <div class="container mx-auto">
       <div class="section-title section-title-lg">
-          <h2>What can we do for you?</h2>
+          <h2>{{ page.what_can_we_do_for_you_.title }}</h2>
       </div>
       <div class="container px-0">
           <div class="flex flex-wrap">
+            {% for offer in page.what_can_we_do_for_you_.offers %}
               <div class="w-full md:w-1/3 md:px-4 pb-30">
                   <div class="feature-card">
                       <div class="feature-card-header">
                           <div class="feature-card-thumb feature-card-thumb-green">
-                              <img src="/images/compass.svg" alt="" width="30">
+                              <img src="{{ offer.icon }}" alt="" width="30">
                           </div>
-                          <span>Architecture</span>
+                          <span>{{ offer.title }}</span>
                       </div>
                       <div class="feature-card-body">
-                          <p>Work together with our team of engineers to come up with the appropriate architecture that will suit your application-specific needs.</p>
+                        <p>{{ offer.description }}</p>
                       </div>
                   </div>
               </div>
-              <div class="w-full md:w-1/3 md:px-4 pb-30">
-                  <div class="feature-card">
-                      <div class="feature-card-header">
-                          <div class="feature-card-thumb feature-card-thumb-yellow">
-                              <img src="/images/monitoring.svg" alt="monitoring" width="30">
-                          </div>
-                          <span>Monitoring</span>
-                      </div>
-                      <div class="feature-card-body">
-                          <p>Our monitoring system connects to your servers and services, gives you an overview of your most important metrics displayed in dashboards and sends alerts to your endpoint of choice (Slack, email, etc.) Our support team can provide 24/7 support and react to potential issues according to SLAs that are agreed beforehand.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="w-full md:w-1/3 md:px-4 pb-30">
-                  <div class="feature-card">
-                      <div class="feature-card-header">
-                          <div class="feature-card-thumb feature-card-thumb-blue">
-                              <img src="/images/settings.svg" alt="settings" width="30">
-                          </div>
-                          <span>Support</span>
-                      </div>
-                      <div class="feature-card-body">
-                          <p>Link your support email(s) with our ticketing system and let us do the communication with your customers.</p>
-                      </div>
-                  </div>
-              </div>
+            {% endfor %}
           </div>
       </div>
   </div>
@@ -83,19 +61,17 @@
           <div class="lg:w-5/12 ml-auto pb-30">
               <div class="about-section-item about-item-details">
                   <div class="section-title section-title-left text-start">
-                      <small>About Us</small>
-                      <h2>We like to build things<br>that matter</h2>
+                      <small>{{ page.about_us.subtitle }}</small>
+                      <h2>{{ page.about_us.title }}</h2>
                   </div>
                   <div class="about-content">
-                    <p>Companies usually need a DevOps person to set up infrastructure and other tooling in the early phases of development and later on the need for active engagement diminishes until some milestone is reached (beta testing, product launch, etc.) Hiring a DevOps can be a long and painful process since there is a shortage of people with these skills on the market, so finding one can be hard (and expensive), also the need for these services may not always be there.</p>
-                    <p>We recognized this and decided to provide DevOps as a Service, we consider this is the most suitable way of cooperation for a large number of companies, no matter their size. Our team consists of people with vast experience working in the DevOps, SysOps, Networking and VoIP space. During the time we spent working in companies we recognized patterns in software development and applied that knowledge into making frameworks that allow us to quickly provision environments, set up monitoring and all other tooling needed for active development and running software in production.</p>
-                    <p>We have multiple modes of operation ranging from short-term / one time jobs to long term support. We are very flexible since we know that every customer has a unique set of requirements and it is our job to accommodate them.</p>
+                  {{ page.about_us.description | markdownify }}
                   </div>
               </div>
           </div>
           <div class="lg:w-5/12 pb-30 ml-auto">
             <div class="about-section-item about-item-image text-center">
-                <img src="/images/howdevolutionworks.svg" alt="shape">
+                <img src="{{ page.about_us.right_image }}" alt="shape">
             </div>
         </div>
       </div>
@@ -107,9 +83,9 @@
 <section class="trial-section pt-min-100 pb-100 bg-main page-bg page-bg-ultra">
   <div class="container mx-auto">
       <div class="section-title section-title-lg section-title-white mb-0">
-          <h2>Learn how we can help you take your company to the next level</h2>
-          <p>Let’s start a conversation about how you can build or improve your software product. We’re here to help!</p>
-          <a href="#contactFormSection" class="btn main-btn main-btn-white main-btn-rounded-icon">Get Started</a>
+          <h2>{{ page.mid_page_cta.title }}</h2>
+          <p>{{ page.mid_page_cta.description }}</p>
+          <a href="{{ page.mid_page_cta.button_url }}" class="btn main-btn main-btn-white main-btn-rounded-icon">{{ page.mid_page_cta.button_text }}</a>
       </div>
   </div>
 </section>
@@ -118,83 +94,25 @@
 <section id="process" class="process-section pt-100 pb-70 bg-off-white">
   <div class="container mx-auto">
       <div class="section-title section-title-lg">
-          <small>Our Process</small>
-          <h2>How We Help with DevOps Services</h2>
+          <small>{{ page.process.subtitle }}</small>
+          <h2>{{ page.process.title }}</h2>
       </div>
       <div class="process-content">
           <div class="flex flex-wrap justify-center equal-height">
+            {% for item in page.process.items %}
               <div class="w-full sm:w-1/2 px-3 pb-30">
                   <div class="process-item process-item-center border relative">
-                      <div class="our-process-number">1</div>
+                      <div class="our-process-number">{{ forloop.index }}</div>
                       <div class="process-thumb">
-                          <img src="/images/process/meeting.svg" alt="shape">
+                          <img src="{{ item.icon }}" alt="shape">
                       </div>
                       <div class="process-text">
-                          <h3>Initial meeting</h3>
-                          <p>Talking with your team in order to understand your current position and goals, getting a rough idea of which technologies and services are being used and what the end result should look like.</p>
+                          <h3>{{ item.title}}</h3>
+                          <p>{{ item.description | markdownify }}</p>
                       </div>
                   </div>
               </div>
-              <div class="w-full sm:w-1/2 px-3 pb-30">
-                  <div class="process-item process-item-center border relative">
-                      <div class="our-process-number">2</div>
-                      <div class="process-thumb">
-                          <img src="/images/process/request-for-proposal.svg" alt="shape">
-                      </div>
-                      <div class="process-text">
-                          <h3>Initial proposal</h3>
-                          <p>Based on the notes we make at our first meeting(s), our team comes up with a short-term and long-term list of tasks that will get us to the goals we defined.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="w-full sm:w-1/2 px-3 pb-30">
-                  <div class="process-item process-item-center border relative">
-                      <div class="our-process-number">3</div>
-                      <div class="process-thumb">
-                          <img src="/images/process/implement.svg" alt="shape">
-                      </div>
-                      <div class="process-text">
-                          <h3>Implement</h3>
-                          <p>Upon agreeing on the order of tasks and timelines, our team starts working on the implementation. During this phase we will have active communication with your team, we try to iterate fast and deliver initial versions as soon as possible in order to get early feedback and prevent potential misunderstandings.</p>
-                      </div>
-                  </div>
-              </div>
-              <div class="w-full sm:w-1/2 px-3 pb-30">
-                <div class="process-item process-item-center border relative">
-                    <div class="our-process-number">4</div>
-                    <div class="process-thumb">
-                        <img src="/images/process/presentation.svg" alt="shape">
-                    </div>
-                    <div class="process-text">
-                        <h3>Present</h3>
-                        <p>Upon completing a milestone we present the work that has been done to the team, this has the benefit of getting the feedback from people that are actually going to use our solutions and also allowing them to better understand how things are working. We also tend to write documentation where it is applicable so it can serve as a reference in the future.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 px-3 pb-30">
-                <div class="process-item process-item-center border relative">
-                    <div class="our-process-number">5</div>
-                    <div class="process-thumb">
-                        <img src="/images/process/repeat.svg" alt="shape">
-                    </div>
-                    <div class="process-text">
-                        <h3>Repeat</h3>
-                        <p>We do work in Implement/Present cycles until the task list is closed.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="w-full sm:w-1/2 px-3 pb-30">
-                <div class="process-item process-item-center border relative">
-                    <div class="our-process-number">6</div>
-                    <div class="process-thumb">
-                        <img src="/images/process/support.svg" alt="shape">
-                    </div>
-                    <div class="process-text">
-                        <h3>Long term support and monitoring</h3>
-                        <p>(Optional) When the work that was agreed upon is done, we go into long term support mode where our team monitors infrastructure and services, proactively reacts to potential issues that are tracked via our Monitoring system and provides support for implementing smaller features.</p>
-                    </div>
-                </div>
-            </div>
+            {% endfor %}
           </div>
       </div>
   </div>
