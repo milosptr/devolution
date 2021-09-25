@@ -1,4 +1,188 @@
 ---
-label: Index
+label: Homepage
 hide_body: true
-fields: []
+fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: index
+- name: hero
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: DevOps as a Service
+  - name: description
+    type: textarea
+    default: We help development teams to build, deploy and optimize Cloud-native
+      and on-prem applications according to the latest standards and technologies.
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Description
+  - name: display_get_started_button
+    type: boolean
+    label: Display Get Started Button
+    default: true
+  label: Hero
+- name: what_can_we_do_for_you_
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: true
+    label: Title
+    default: What can we do for you?
+  - name: offers
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: Icon
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Description
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Offers
+  label: What can we do for you?
+- name: about_us
+  type: field_group
+  config: {}
+  fields:
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+    default: About Us
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: We like to build things that matter
+  - name: description
+    type: textarea
+    default: |-
+      Companies usually need a DevOps person to set up infrastructure and other tooling in the early phases of development and later on the need for active engagement diminishes until some milestone is reached (beta testing, product launch, etc.) Hiring a DevOps can be a long and painful process since there is a shortage of people with these skills on the market, so finding one can be hard (and expensive), also the need for these services may not always be there.
+
+      We recognized this and decided to provide DevOps as a Service, we consider this is the most suitable way of cooperation for a large number of companies, no matter their size. Our team consists of people with vast experience working in the DevOps, SysOps, Networking and VoIP space. During the time we spent working in companies we recognized patterns in software development and applied that knowledge into making frameworks that allow us to quickly provision environments, set up monitoring and all other tooling needed for active development and running software in production.
+
+      We have multiple modes of operation ranging from short-term / one time jobs to long term support. We are very flexible since we know that every customer has a unique set of requirements and it is our job to accommodate them.
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Description
+  - name: right_image
+    type: file
+    config:
+      maxSize: 64
+    label: Right image
+    default: "/images/howdevolutionworks.svg"
+  label: About us
+- name: mid_page_cta
+  type: field_group
+  config: {}
+  fields:
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: Learn how we can help you take your company to the next level
+  - name: description
+    type: textarea
+    default: Let’s start a conversation about how you can build or improve your software
+      product. We’re here to help!
+    config:
+      required: false
+      wysiwyg: true
+      schema:
+        format: markdown
+    label: Description
+  - name: button_text
+    type: text
+    config:
+      required: false
+    label: Button Text
+    default: Get Started
+  - name: button_url
+    type: text
+    config:
+      required: false
+    label: Button URL
+    default: "/#contactFormSection"
+  label: Mid page CTA
+- name: process
+  type: field_group
+  config: {}
+  fields:
+  - name: subtitle
+    type: text
+    config:
+      required: false
+    label: Subtitle
+    default: Our Process
+  - name: title
+    type: text
+    config:
+      required: false
+    label: Title
+    default: How We Help with DevOps Services
+  - name: items
+    type: field_group_list
+    fields:
+    - name: icon
+      type: file
+      config:
+        maxSize: 64
+      label: Icon
+    - name: title
+      type: text
+      config:
+        required: false
+      label: Title
+    - name: description
+      type: textarea
+      default: ''
+      config:
+        required: false
+        wysiwyg: true
+        schema:
+          format: markdown
+      label: Description
+    config:
+      min: 
+      max: 
+      labelField: 
+    label: Items
+  label: Process
