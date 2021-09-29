@@ -8,15 +8,15 @@ hero:
 what_can_we_do_for_you_:
   title: What can we do for you?
   offers:
+  - icon: "/images/compass.svg"
+    title: Architecture
+    description: Work together with our team of engineers to come up with the appropriate
+      architecture that will suit your application-specific needs.
   - title: Cloud migrations
     description: We can help you to drive process of moving digital assets (data,
       apps, workloads, other business components) from an organization’s on-premise
       infrastructure to the cloud (public cloud, private cloud, hybrid cloud, multi-cloud).
     icon: "/images/migrating.png"
-  - icon: "/images/compass.svg"
-    title: Architecture
-    description: Work together with our team of engineers to come up with the appropriate
-      architecture that will suit your application-specific needs.
   - icon: "/images/monitoring.svg"
     title: Monitoring
     description: Our monitoring system connects to your servers and services, gives
