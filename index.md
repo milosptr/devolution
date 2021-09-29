@@ -22,7 +22,7 @@ what_can_we_do_for_you_:
       We can help you to build chain of Infrastructure/DevOps tools that are needed for running smooth operations & processes - this includes (but not limited to) tools for CI/CD, monitoring, tracing, observability, logging, orchestration, secrets management tools, IaC (Infrastructure as a Code) tools.
 
       Also if you have a need for unique and purpose specific infrastructure tool we can build it for you.
-    icon: "/images/cloud-1.png"
+    icon: "/images/cloud.png"
   - icon: "/images/monitoring.svg"
     title: Monitoring
     description: Our monitoring system connects to your servers and services, gives
