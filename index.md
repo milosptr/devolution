@@ -30,6 +30,7 @@ what_can_we_do_for_you_:
       to provide continuous proposal and updates related to security of your infrastructure
       and applications. We use layered approach meaning that we dedicate attention
       to each layer of your stack and make sure that multiple safety nets are implemented.
+    icon: "/images/cloud-2.png"
   - icon: "/images/monitoring.svg"
     title: Monitoring
     description: Our monitoring system connects to your servers and services, gives
