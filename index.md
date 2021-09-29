@@ -23,6 +23,14 @@ what_can_we_do_for_you_:
 
       Also if you have a need for unique and purpose driven infrastructure tool we can build it for you.
     icon: "/images/cloud.png"
+  - title: Security
+    description: We take security for serious seriously. Usually for many it is not
+      important or recognized as priority until disaster or malicious activity happens
+      - then it is usually to late to react and damage is made so in that light we
+      are here to provide continuous proposal and updates related to security of your
+      infrastructure and applications. We use layered approach meaning that we dedicate
+      attention to each layer of your stack and make sure that multiple safety nets
+      are implemented.
   - icon: "/images/monitoring.svg"
     title: Monitoring
     description: Our monitoring system connects to your servers and services, gives
