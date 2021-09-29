@@ -8,6 +8,10 @@ hero:
 what_can_we_do_for_you_:
   title: What can we do for you?
   offers:
+  - title: Cloud migrations
+    description: We can help you to drive process of moving digital assets (data,
+      apps, workloads, other business components) from an organization’s on-premise
+      infrastructure to the cloud (public cloud, private cloud, hybrid cloud, multi-cloud).
   - icon: "/images/compass.svg"
     title: Architecture
     description: Work together with our team of engineers to come up with the appropriate
