@@ -16,7 +16,7 @@ what_can_we_do_for_you_:
     description: We can help you to drive process of moving digital assets (data,
       apps, workloads, other business components) from an organization’s on-premise
       infrastructure to the cloud (public cloud, private cloud, hybrid cloud, multi-cloud).
-    icon: "/images/cloud_perspective_matte.png"
+    icon: "/images/screenshot_2021-09-30_at_21-12-23-removebg-preview.png"
   - title: Infra tooling
     description: |-
       We can help you to build chain of Infrastructure & DevOps tools that are needed for running smooth operations & processes - this includes (but not limited to) tools for CI (Continuous Integration) & CD (Continuous Deployment), monitoring, tracing, observability, logging, orchestration, secrets management tools, IaC (Infrastructure as a Code) tools.
