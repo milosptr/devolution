@@ -63,10 +63,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #444;
 }
 
-.nav-link.active {
+/* .nav-link.active {
   color: #3955a8;
   font-weight: bold;
-}
+} */
 .close-nav-btn,
 .responisve-nav {
   display: none;
