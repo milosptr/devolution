@@ -16,7 +16,7 @@ what_can_we_do_for_you_:
     description: We can help you to drive process of moving digital assets (data,
       apps, workloads, other business components) from an organization’s on-premise
       infrastructure to the cloud (public cloud, private cloud, hybrid cloud, multi-cloud).
-    icon: "/images/migrating.png"
+    icon: "/images/cloud_perspective_matte_s.png"
   - title: Infra tooling
     description: |-
       We can help you to build chain of Infrastructure & DevOps tools that are needed for running smooth operations & processes - this includes (but not limited to) tools for CI (Continuous Integration) & CD (Continuous Deployment), monitoring, tracing, observability, logging, orchestration, secrets management tools, IaC (Infrastructure as a Code) tools.
@@ -30,7 +30,7 @@ what_can_we_do_for_you_:
       to provide continuous proposals and updates related to security of your infrastructure
       and applications. We use layered approach meaning that we dedicate attention
       to each layer of your stack and make sure that multiple safety nets are implemented.
-    icon: "/images/cloud-2.png"
+    icon: "/images/padlock_perspective_matte_s.png"
   - icon: "/images/telescope_perspective_matte.png"
     title: Monitoring
     description: Our monitoring system connects to your servers and services, gives
