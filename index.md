@@ -8,7 +8,7 @@ hero:
 what_can_we_do_for_you_:
   title: What can we do for you?
   offers:
-  - icon: "/images/compass.svg"
+  - icon: "/images/processor_perspective_matte.png"
     title: Architecture
     description: Work together with our team of engineers to come up with the appropriate
       architecture that will suit your application-specific needs.
