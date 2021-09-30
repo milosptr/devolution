@@ -31,7 +31,7 @@ what_can_we_do_for_you_:
       and applications. We use layered approach meaning that we dedicate attention
       to each layer of your stack and make sure that multiple safety nets are implemented.
     icon: "/images/cloud-2.png"
-  - icon: "/images/monitoring.svg"
+  - icon: "/images/telescope_perspective_matte.png"
     title: Monitoring
     description: Our monitoring system connects to your servers and services, gives
       you an overview of your most important metrics displayed in dashboards and sends
