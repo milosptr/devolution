@@ -62,33 +62,33 @@ process:
   subtitle: Our Process
   title: How We Help with DevOps Services
   items:
-  - icon: "/images/process/meeting.svg"
+  - icon: "/images/networking_perspective_matte.png"
     title: Initial meeting
     description: Talking with your team in order to understand your current position
       and goals, getting a rough idea of which technologies and services are being
       used and what the end result should look like.
-  - icon: "/images/process/request-for-proposal.svg"
+  - icon: "/images/notebook_perspective_matte.png"
     title: Initial proposal
     description: Based on the notes we make at our first meeting(s), our team comes
       up with a short-term and long-term list of tasks that will get us to the goals
       we defined.
-  - icon: "/images/process/implement.svg"
+  - icon: "/images/code_perspective_matte_s.png"
     title: Implement
     description: Upon agreeing on the order of tasks and timelines, our team starts
       working on the implementation. During this phase we will have active communication
       with your team, we try to iterate fast and deliver initial versions as soon
       as possible in order to get early feedback and prevent potential misunderstandings.
-  - icon: "/images/process/presentation.svg"
+  - icon: "/images/screenshot_2021-09-30_at_21-17-15-removebg-preview.png"
     title: Present
     description: Upon completing a milestone we present the work that has been done
       to the team, this has the benefit of getting the feedback from people that are
       actually going to use our solutions and also allowing them to better understand
       how things are working. We also tend to write documentation where it is applicable
       so it can serve as a reference in the future.
-  - icon: "/images/process/repeat.svg"
+  - icon: "/images/exchange_perspective_matte.png"
     title: Repeat
     description: We do work in Implement/Present cycles until the task list is closed.
-  - icon: "/images/process/support.svg"
+  - icon: "/images/tools_perspective_matte.png"
     title: Long term support and monitoring
     description: "(Optional) When the work that was agreed upon is done, we go into
       long term support mode where our team monitors infrastructure and services,
