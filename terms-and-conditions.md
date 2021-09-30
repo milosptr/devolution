@@ -1,0 +1,3 @@
+---
+layout: terms-and-conditions
+---
