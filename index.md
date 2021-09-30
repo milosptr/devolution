@@ -38,7 +38,7 @@ what_can_we_do_for_you_:
       alerts to your endpoint of choice (Slack, email, etc.) Our support team can
       provide 24/7 support and react to potential issues according to SLAs that are
       agreed beforehand.
-  - icon: "/images/settings.svg"
+  - icon: "/images/tools_perspective_matte.png"
     title: Support
     description: Link your support email(s) with our ticketing system and let us do
       the communication with your customers.
