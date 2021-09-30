@@ -27,8 +27,8 @@
 
         $.ajax({
             type: "POST",
-            url: "/contact-us.php",
-            data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
+            url: "https://mailthis.to/milosptr@hotmail.com",
+            data: "name=" + name + "&_replyto=" + email + "&msg_subject=" + msg_subject + "&phone_number=" + phone_number + "&message=" + message,
             success : function(text){
                 if (text == "success"){
                     formSuccess();
