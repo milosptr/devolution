@@ -13,9 +13,9 @@ what_can_we_do_for_you_:
     description: Work together with our team of engineers to come up with the appropriate
       architecture that will suit your application-specific needs.
   - title: Cloud migrations
-    description: We can help you to drive process of moving digital assets (data,
+    description: We can help you drive the process of moving digital assets (data,
       apps, workloads, other business components) from an organization’s on-premise
-      infrastructure to the cloud (public cloud, private cloud, hybrid cloud, multi-cloud).
+      infrastructure to the cloud (public/private /hybrid/multi cloud).
     icon: "/images/screenshot_2021-09-30_at_21-12-23-removebg-preview.png"
   - title: Infra tooling
     description: |-
