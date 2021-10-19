@@ -3,7 +3,7 @@ layout: homepage
 hero:
   title: DevOps as a Service
   description: We help development teams to build, deploy and optimize Cloud-native
-    and on-prem applications according to the latest standards and technologies.
+    and on-prem applications following latest standards and technologies.
   display_get_started_button: true
 what_can_we_do_for_you_:
   title: What can we do for you?
