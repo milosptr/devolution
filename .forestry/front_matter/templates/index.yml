@@ -67,9 +67,9 @@ fields:
           format: markdown
       label: Description
     config:
-      min: 
-      max: 
-      labelField: 
+      min:
+      max:
+      labelField:
     label: Offers
   label: What can we do for you?
 - name: about_us
@@ -181,8 +181,18 @@ fields:
           format: markdown
       label: Description
     config:
-      min: 
-      max: 
-      labelField: 
+      min:
+      max:
+      labelField:
     label: Items
   label: Process
+  - name: Twitter url
+    type: text
+    config:
+      required: false
+    label: twitter_url
+- name: Linkedin url
+    type: text
+    config:
+      required: false
+    label: linkedin_url

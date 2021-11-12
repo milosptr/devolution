@@ -3,7 +3,7 @@ title: Devolution
 short_title: Devolution
 description: We help development teams to build, deploy and optimize Cloud-native
   and on-prem applications according to the latest standards and technologies.
-baseurl: 
+baseurl:
 permalink: "/:path/"
 defaults:
 - scope:
