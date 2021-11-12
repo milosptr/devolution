@@ -3,7 +3,7 @@ layout: homepage
 hero:
   title: DevOps as a Service
   description: We help development teams to build, deploy and optimize Cloud-native
-    and on-prem applications according to the latest standards and technologies.
+    and on-prem applications following latest standards and technologies.
   display_get_started_button: true
 what_can_we_do_for_you_:
   title: What can we do for you?
@@ -13,9 +13,9 @@ what_can_we_do_for_you_:
     description: Work together with our team of engineers to come up with the appropriate
       architecture that will suit your application-specific needs.
   - title: Cloud migrations
-    description: We can help you to drive process of moving digital assets (data,
+    description: We can help you drive the process of moving digital assets (data,
       apps, workloads, other business components) from an organization’s on-premise
-      infrastructure to the cloud (public cloud, private cloud, hybrid cloud, multi-cloud).
+      infrastructure to the cloud (public/private /hybrid/multi cloud).
     icon: "/images/screenshot_2021-09-30_at_21-12-23-removebg-preview.png"
   - title: Infra tooling
     description: |-
@@ -25,11 +25,11 @@ what_can_we_do_for_you_:
     icon: "/images/screenshot_2021-09-30_at_21-08-16-removebg-preview.png"
   - title: Security
     description: We take security for serious. Usually for many it is not important
-      or recognized as priority until disaster or malicious activity happens - then
+      or recognized as a priority until disaster or malicious activity happens - then
       it is usually too late to react and damage is made so in that light we are here
       to provide continuous proposals and updates related to security of your infrastructure
-      and applications. We use layered approach meaning that we dedicate attention
-      to each layer of your stack and make sure that multiple safety nets are implemented.
+      and applications. We dedicate attention to each layer of your stack and make
+      sure that multiple safety nets are implemented.
     icon: "/images/padlock_perspective_matte_s.png"
   - icon: "/images/telescope_perspective_matte.png"
     title: Monitoring
