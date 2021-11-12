@@ -46,7 +46,7 @@ about_us:
   subtitle: About Us
   title: We like to build things that matter
   description: |-
-    Companies usually need a DevOps person to set up infrastructure and other tooling in the early phases of development and later on the need for active engagement diminishes until some milestone is reached (beta testing, product launch, etc.) Hiring a DevOps can be a long and painful process since there is a shortage of people with these skills on the market, so finding one can be hard (and expensive), also the need for these services may not always be there.
+    Companies usually need a DevOps person to set up infrastructure and other tooling in the early phases of development and later on the need for active engagement diminishes until some milestone is reached (beta testing, product launch, etc.) Hiring a DevOps can be a long and painful process since there is a shortage of people with these skills on the market, so finding one can be hard (also expensive) and the need for these services may not always be there.
 
     We recognized this and decided to provide DevOps as a Service, we consider this is the most suitable way of cooperation for a large number of companies, no matter their size. Our team consists of people with vast experience working in the DevOps, SysOps, Networking and VoIP space. During the time we spent working in companies we recognized patterns in software development and applied that knowledge into making frameworks that allow us to quickly provision environments, set up monitoring and all other tooling needed for active development and running software in production.
 
