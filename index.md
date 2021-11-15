@@ -94,6 +94,7 @@ process:
       long term support mode where our team monitors infrastructure and services,
       proactively reacts to potential issues that are tracked via our Monitoring system
       and provides support for implementing smaller features."
-twitter_url: tes
+twitter_url: ''
+linkedin_url: https://www.linkedin.com/company/devolution-devolut-io
 
 ---
